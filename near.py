@@ -77,7 +77,7 @@ along=str(formatNumber(a[1]))
 csvfile.close()
 
 #again open the file to read contents
-csvfile=open("geocode.csv","r")
+csvfile=open("geocode_health_center.csv","r")
 
 spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
 
